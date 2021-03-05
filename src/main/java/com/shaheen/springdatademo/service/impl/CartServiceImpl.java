@@ -21,6 +21,7 @@ public class CartServiceImpl implements CartService {
     @Override
     public Cart addToCart(Set<Item> items) {
         Cart cart = new Cart();
+        items.forEach(item -> item.setCart(cart));
         cart.setItems(items);
         return cartRepository.save(cart);
     }
