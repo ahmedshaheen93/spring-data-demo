@@ -16,6 +16,13 @@
     <properties>
         <java.version>11</java.version>
     </properties>
+    <developers>
+        <developer>
+            <id>1</id>
+            <name>Ahmed Shaheen</name>
+            <email>ahmedshaheen93@yahoo.com</email>
+        </developer>
+    </developers>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
